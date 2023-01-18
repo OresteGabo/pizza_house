@@ -1,0 +1,147 @@
+
+html, body {
+    background-color: rgb(200,200,200);
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+footer{
+    background: rgb(100,100,100);
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+
+.title {
+    font-size: 50px;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    padding: 12px 0;
+    color: #5e2195;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+
+    font-size: 30px;
+
+    text-align: center;
+    text-decoration: none;
+}
+.social-media{
+    padding: 20px;
+    width: 50px;
+}
+
+/* Add a hover effect  */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Google */
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+/* Linkedin */
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/* Youtube */
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+
+
+/* Tables */
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin:20px;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){background-color: rgb(185,185,185);}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(100,100,100);
+    color: white;
+}
